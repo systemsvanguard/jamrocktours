@@ -2,10 +2,10 @@
 // require our dependencies
 var express        = require('express');
 var expressLayouts = require('express-ejs-layouts');
-var bodyParser     = require('body-parser');
-var app            = express();
-var webPort		   = 5000;
-var port           = process.env.PORT || webPort;
+const bodyParser     = require('body-parser');
+const app            = express();
+const webPort		   = 5000;
+const port           = process.env.PORT || webPort;
 
 // use ejs and express layouts
 app.set('view engine', 'ejs');
@@ -15,7 +15,7 @@ app.use(expressLayouts);
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // route our app
-var router = require('./app/routes');
+const router = require('./app/routes');
 app.use('/', router);
 
 
