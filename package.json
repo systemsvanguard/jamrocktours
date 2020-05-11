@@ -1,17 +1,36 @@
 {
-  "name": "node-site",
-  "version": "1.0.0",
-  "description": "",
+  "name": "jamrocktours",
+  "version": "1.2.1",
+  "description": "A simple static portfolio website built using Node.js, Express.js, Bootstrap 4, Google Fonts, and a Fontastic.me generated font. Built on a day that I was bored and just wanted to code something ... anything!",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ryan Hunter | GitHub handle: SystemsVanguard | Web: www.ryanhunter.org | Location: Toronto ON Canada",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemsvanguard/jamrocktours.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Bootstrap 4 CSS Framework",
+    "Goole Fonts",
+    "Fontastic.me generated fonts",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "FontAwesome"
+  ],
   "dependencies": {
     "body-parser": "^1.15.2",
+    "dotenv": "^8.2.0",
     "ejs": "^2.5.1",
     "express": "^4.14.0",
     "express-ejs-layouts": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }

@@ -2,18 +2,44 @@
 <%- contentFor('hero') %>
 <section class="hero">
   <div class="hero-content">
-    <h2>Welcome to my Site!</h2>
-    <p>The best place to be</p>
+    <h2>Welcome to JamRock!</h2>
+    <p>A tropical paradise awaits</p>
 
     <a href="/"         class="btn btn-lg btn-primary"><i class="fa fa-home"></i> Get Started</a>
-	<a href="/services" class="btn btn-lg btn-primary"><i class="fa fa-hands-helping"></i> Services</a>
-	<a href="/about"    class="btn btn-lg btn-primary"><i class="fa fa-info-circle"></i> About Me</a>
+	<a href="/tours" class="btn btn-lg btn-primary"><i class="fa fa-car"></i> Tours</a>
+	<a href="/about"    class="btn btn-lg btn-primary"><i class="fa fa-info-circle"></i> About Us</a>
     <a href="/contact"  class="btn btn-lg btn-primary"><i class="fa fa-phone"></i> Contact</a>
   </div>
 </section>
 
 <%- contentFor('body') %>
-<div class="jumbotron text-center">
-  <h2>Home Page</h2>
-  <p>We do <b>full stack web development</b>, with our backend code written using the MEAN stack.  We build sites using Node.js, Express.js, MongoDB, PostgreSQL, JavaScript, Angular 4, CSS, Bootstrap, FontAwesome, Google Fonts, and HTML5.</p>
+
+
+
+  <h2 class="text-center">Memorable Tours</h2>
+  
+  <p class="text-justify">
+  From the open-air markets and colonial landmarks in Kingston and Montego Bay to the laid-back vibe on Negril’s Seven Mile Beach, Jamaica has an activity for every traveler’s style. Vacation in true Caribbean fashion by lounging on the miles of beaches along the Ocho Rios coastline. You’ll want to take breaks to taste some local rum, sip a Red Stripe or some famous Blue Mountain coffee, or dig in to a plate of traditional jerk chicken. The entire azure coastline offers myriad opportunities to swim and snorkel among the coral reefs and the abundance of marine life. </p>
+  <p class="text-justify">A tour guide is the best way to gain insight into the island’s musical history, with a visit to the Bob Marley Museum or even Marley’s hometown, Nine Mile. Adventure-seekers can take their pick of activities such as ziplining through the jungle canopy; whitewater rafting down the Black River; climbing the terraced Dunn’s River Falls; hiking to the top of Blue Mountain; or spelunking in one of the many limestone caves that dot the island nation. Don’t miss a visit to the Luminous Lagoon, one of the few places in the world where the conditions are just right for swimming and boating in a bioluminescent bay lit up by tiny, harmless dinoflagellates.</p>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm bg-secondary text-white">
+	   <h3 class="text-center">Dunn's River Falls</h3>
+	   <img src="http://ryanhunter.ca/images/portfolio/jamrock_dunnsriver.jpg" class="rounded mx-auto d-block img-fluid" alt="Dunn's River Falls">
+	   <p class="text-justify">Dunn's River Falls is a spectacular waterfall near Ocho Rios, where cold mountain water cascades 1,000 feet (300 meters) down naturally terraced steps. Visitors can climb the falls alone or in a guided "human chain," but there's also plenty of swimming, sunbathing and sightseeing to do as well.</p>
+	  </div>
+      <div class="col-sm bg-primary text-white">
+	   <h3 class="text-center">YS Falls</h3>
+	   <img src="http://ryanhunter.ca/images/portfolio/jamrock_ysfalls.jpg" class="rounded mx-auto d-block img-fluid" alt="YS Falls">
+	   <p class="text-justify">YS Falls is a stunning ecosystem located on the lush, south coast of Jamaica. Often overshadowed by its Jamaica waterfall rival, Dunn’s River Falls, YS is worth a visit simply for its more secluded location, 50 miles southwest of Montego Bay and 50 miles east of Negril.</p>
+	  </div>
+    </div> 
+  </div>
+  
+    <br />
+  <p class="text-center font-italic font-weight-bold">Please note this is a demo site only, and content is ripped from <a href="https://www.viator.com/Jamaica/d34">Viator.com's</a> Jamaica page.  Please see them for real Jamaica tours.
+  </p>
+  
 </div>
+
