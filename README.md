@@ -3,7 +3,7 @@ A fictional tour site of a beautiful Caribbean island.  Incomplete.  A simple st
 
 Live **Site Demo** ~ [JamRock Tours](http://jamrocktours.openode.io/) 
 
-![JamRock Tours](http://ryanhunter.org/portfolio/jamrock_tours.png)
+![JamRock Tours](http://ryanhunter.ca/images/portfolio/jamrock_01.png)
 
 
 ## Steps to Install
@@ -25,7 +25,7 @@ This project is licensed under the terms of the **MIT** license.
 
 
 ## Screenshot
-![JamRock Tours](http://ryanhunter.org/portfolio/jamrock_tours.png)
+![JamRock Tours](http://ryanhunter.ca/images/portfolio/jamrock_02.png)
 
 
 ## Miscellany
